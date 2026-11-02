@@ -1,0 +1,12 @@
+streamlit
+google-genai>=0.1.0
+sentence-transformers
+faiss-cpu
+streamlit
+requests
+PyMuPDF
+pytesseract
+Pillow
+sentence-transformers
+faiss-cpu
+numpy

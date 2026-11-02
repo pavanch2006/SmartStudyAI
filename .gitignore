@@ -1,0 +1,45 @@
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Secrets and API keys
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# IDE settings
+.idea/
+.vscode/
+
+# Streamlit cache
+.streamlit/cache/
+
+# Generated data
+data/documents/*
+!data/documents/.gitkeep
+
+database/*
+!database/.gitkeep
+
+# Model files
+*.pt
+*.pth
+*.onnx
+*.ubj
+*.bin
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
